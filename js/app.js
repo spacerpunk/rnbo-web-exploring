@@ -336,4 +336,6 @@ function makeMIDIKeyboard(device) {
     });
 }
 
-setup();
+//setup();
+
+export{setup};
