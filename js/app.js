@@ -5,7 +5,7 @@ async function setup() {
     const WAContext = window.AudioContext || window.webkitAudioContext;
     const context = new WAContext();
 
-    // Create gain node and connect it to audio output
+    // Create gain node and connect it to audio output  
     const outputNode = context.createGain();
     outputNode.connect(context.destination);
     
